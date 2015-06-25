@@ -1,9 +1,5 @@
 #!/usr/local/bin/python3
 
-# Make this file executable with `chmod +x /path/to/this/file`
-# Replace the shebang path with the result of `which python3`
-# Set Slic3r's post-processing script to point to this file. 
-
 import os
 import sys
 import subprocess
