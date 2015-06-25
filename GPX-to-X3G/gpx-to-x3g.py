@@ -1,5 +1,11 @@
 #!/usr/local/bin/python3
 
+# 1) Make this file executable with `chmod +x /path/to/this/file`
+# 2) Replace the shebang path with the result of `which python3`
+# 3) In slic3r, go to Print Settings > Output options > Post-processing scripts
+#    and put the full path to this file. The path cannot contain any spaces,
+#    even if they are escaped.  
+
 import os
 import sys
 import subprocess
